@@ -3,7 +3,7 @@ services:
     image: tailscale/tailscale:latest
     hostname: immich
     environment:
-      - TS_AUTHKEY=tskey-auth-revoked
+      - TS_AUTHKEY=tskey-auth-tskey-auth-kekhmdxKsZ11CNTRL-qZX2CMATqmZGetUvGD1GmZbbHiQmAwwd
       - TS_STATE_DIR=/var/lib/tailscale
       - TS_SERVE_CONFIG=/config/immich.json
       - TS_USERSPACE=true
